@@ -1,8 +1,8 @@
 <?php 
 
-$server="localhost";
-$username="root";
-$password="admin";
+$server="myserver32327.database.windows.net,1433";
+$username="sqladmin";
+$password="admin98_";
 $db="sparks_bank";
 
 $conn=mysqli_connect($server,$username,$password,$db);
